@@ -20,7 +20,8 @@ EditText userText;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("Etiquetas","Entró");
-        Toast.makeText( userText(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"CalculApp",Toast.LENGTH_LONG).show();
+        Log.d("Etiques","Ya entró");
         suma= a+b;
         resta= a-b;
         div= a/b;
@@ -29,6 +30,6 @@ EditText userText;
         System.out.println("Suma de dos numeros " + suma);
         System.out.println("Resta de dos numeros " + resta);
         System.out.println("Division de dos numeros " + div);
-        System.out.println("Multiplicacion de dos numeros " + mult);
+        System.out.println("Multiplicación de dos numeros " + mult);
     }
 }

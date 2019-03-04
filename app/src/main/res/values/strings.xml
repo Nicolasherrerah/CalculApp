@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Calculapp</string>
     <string name="Etiquetas">Etiqueta</string>
+    <string name="userText">Resultados</string>
 
 
 </resources>
