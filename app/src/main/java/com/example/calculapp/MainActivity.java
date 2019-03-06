@@ -22,14 +22,30 @@ EditText userText;
         Log.d("Etiquetas","Entró");
         Toast.makeText(getApplicationContext(),"CalculApp",Toast.LENGTH_LONG).show();
         Log.d("Etiques","Ya entró");
-        suma= a+b;
-        resta= a-b;
-        div= a/b;
-        mult=a*b;
+
+        sumar();
+        restar();
+        dividir();
+        multiplicar();
 
         System.out.println("Suma de dos numeros " + suma);
         System.out.println("Resta de dos numeros " + resta);
         System.out.println("Division de dos numeros " + div);
         System.out.println("Multiplicación de dos numeros " + mult);
     }
+
+    public void sumar () {
+        suma=a+b;
+    }
+
+    public void restar () {
+        resta=a-b;
+    }
+    public void dividir () {
+        div=a/b;
+    }
+    public void multiplicar () {
+        mult=a*b;
+    }
+
 }
